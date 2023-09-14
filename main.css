@@ -197,16 +197,16 @@
         height: 16%;
         justify-content: center;
         width: 90%;
-        background-color: gray;
+        /* background-color: gray; */
      }
-     div.sport-name{
+     div.sport-name1{
         display: flex;
         position: absolute;
         top: 72%;
         left: 5%;
         height: 10%;
         width: 40%;
-        background-color: gray;
+        /* background-color: gray; */
      }
      div.fixhead{
         display: flex;
@@ -216,19 +216,40 @@
         font-size: 25px;
         font-weight: 550;
         height: 50%;
-        width: 20%;
-        background-color: crimson;
+        width: 40%;
+        /* background-color: crimson; */
      }
      div.fixname{
         display: flex;
         position: absolute;
         top: 25%;
         font-size: 25px;
-        left: 22%;
+        left: 41%;
         height: 50%;
-        width: 78%;
-        background-color: aqua;
+        width: 59%;
+        /* background-color: aqua; */
      }
+     div.fixhead1{
+      display: flex;
+      position: absolute;
+      top: 25%;
+      left: 0%;
+      font-size: 25px;
+      font-weight: 550;
+      height: 50%;
+      width: 35%;
+      /* background-color: crimson; */
+   }
+   div.fixname1{
+      display: flex;
+      position: absolute;
+      top: 20%;
+      font-size: 25px;
+      left: 40%;
+      height: 60%;
+      width: 50%;
+      /* background-color: aqua; */
+   }
      div.player-name{
         display: flex;
         position: absolute;
@@ -236,8 +257,26 @@
         left: 55%;
         height: 10%;
         width: 40%;
-        background-color: gray;
+        /* background-color: gray; */
      }
+     div.coach-sign{
+      display: flex;
+      position: absolute;
+      top: 85%;
+      left: 5%;
+      height: 10%;
+      width: 40%;
+      /* background-color: gray; */
+      }
+      div.main-sign{
+         display: flex;
+         position: absolute;
+         top: 85%;
+         left: 55%;
+         height: 10%;
+         width: 40%;
+         /* background-color: gray; */
+         }
      div.footer{
         display: flex;
         position: absolute;
