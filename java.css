@@ -1,0 +1,572 @@
+
+
+    body { font-family: "Adobe Garamond Premier Pro", Garamond, "Linux Libertine", Baskerville, Georgia, serif;
+        font-weight: normal; 
+        font-size: 18px; 
+        color: #111111; 
+        background-color: #fefefe; 
+        padding: 1em; width: 95vw; 
+        max-width: 100%;
+        margin: 0 auto; }
+
+     div.inputdata{
+        display: flex;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        height: 80%;
+        border: 1px solid black;
+        width: 25%;
+        background: salmon;
+        box-shadow: 5px 5px 5px brown;
+        border-radius: 25px;
+     }
+     span.heading{
+        display: flex;
+        position: absolute;
+        padding: auto;
+        text-align: center;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+        font-size: calc(2.5vw);
+        text-shadow: 2px 2px 3px gray;
+        top: 30%;
+        left: 12%;
+        height: 40%;
+        width: 70%;
+        /* background-color: aqua; */
+        /* font-size: xx-large; */
+     }
+     span.data{
+        display: flex;
+        position: absolute;
+        padding: auto;
+        text-align: center;
+        font-weight: 1000;
+        top: 60%;
+        left: 0%;
+        height: 40%;
+        width: 100%;
+        /* background-color: rgb(0, 13, 255); */
+        font-size: xx-large;
+     }
+     input.data{
+        display: flex;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 50%;
+        box-shadow: 3px 3px 3px black;
+     }
+     div.name{
+        display: flex;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 25%;
+        width: 100%;
+        /* background-color: rgb(255, 99, 234); */
+     }
+     div.father-name{
+        display: flex;
+        position: absolute;
+        top: 25%;
+        left: 0%;
+        height: 25%;
+        width: 100%;
+        /* background-color: gray; */
+     }
+     div.sport-name{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        height: 20%;
+        width: 100%;
+        /* background-color: rgb(181, 231, 31); */
+     }
+     /* div.year{
+        display: flex;
+        position: absolute;
+        top: 60%;
+        left: 0%;
+        height: 20%;
+        width: 100%;
+        background-color: rgb(109, 185, 77);
+     } */
+     a{
+      text-decoration: none;
+      color: inherit;
+     }
+     div.submit{
+        display: flex;
+        position: absolute;
+        top: 75%;
+        left: 0%;
+        height: 25%;
+        width: 100%;
+        /* background-color: rgb(226, 103, 103); */
+     }
+     button.submit{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        background-color: rebeccapurple;
+        color: white;
+        font-weight: 800;
+        font-size: calc(2vw);
+        top: 25%;
+        left: 25%;
+        height: 50%;
+        width: 50%;
+        cursor: pointer;
+     }
+     button.submit:hover{
+      background-color: black;
+      color: wheat;
+      box-shadow: 3px 3px 3px red;
+     }
+     div.certificate{
+        display: flex;
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        height: 80%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px goldenrod;
+        width: 60%;
+        background-color: rgba(246, 255, 146, 0.653);
+     }
+     div.header{
+        display: flex;
+        position: absolute;
+        font-family: cursive;
+        font-size: calc(3vw);
+        justify-content: center;
+        top: 5%;
+        left: 14%;
+        height: 10%;
+        color: red;
+        width: 72%;
+        text-shadow: 3px 3px 3px black;
+        /* background-color: antiquewhite; */
+     }
+     div.presenter{
+        display: flex;
+        position: absolute;
+        top: 20%;
+        left: 38%;
+        justify-content: center;
+        /* background-color: gray; */
+        height: 5%;
+        /* letter-spacing: 2px; */
+        font-size: calc(1.7vw);
+        width: 24%;
+        font-family: monospace;
+     }
+     div.applicant-name{
+        display: flex;
+        position: absolute;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 3px;
+        justify-content: center;
+        top: 26%;
+        color: rgb(182, 67, 0);
+        font-size: calc(3.5vw);
+        left: 10%;
+        height: 8%;
+        text-shadow: 3px 3px 3px darkorange;
+        width: 80%;
+        /* background-color: aquamarine; */
+     }
+     div.so{
+        display: flex;
+        position: absolute;
+        top: 36%;
+        font-family: monospace;
+        left: 47%;
+        font-size: calc(2vw);
+        height: 5%;
+        width: 6%;
+        /* background-color: crimson; */
+     }
+     div.father-applicant-name{
+        display: flex;
+        position: absolute;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 3px;
+        justify-content: center;
+        top: 42%;
+        color:  rgb(182, 67, 0);
+        text-shadow: 3px 3px 3px darkorange;
+        font-size: calc(3.5vw);
+        left: 10%;
+        height: 8%;
+        width: 80%;
+        /* background-color: aquamarine; */
+     }
+     div.report{
+        display: flex;
+        position: absolute;
+        font-size: calc(1.6vw);
+        top: 55%;
+        left: 5%;
+        letter-spacing: 2px;
+        text-align: center;
+        height: 16%;
+        justify-content: center;
+        width: 90%;
+        /* background-color: gray; */
+     }
+     div.sport-name1{
+        display: flex;
+        position: absolute;
+        top: 72%;
+        left: 5%;
+        height: 10%;
+        width: 40%;
+        /* background-color: gray; */
+     }
+     div.fixhead{
+        display: flex;
+        position: absolute;
+        top: 25%;
+        left: 0%;
+        font-size: calc(1.6vw);
+        font-weight: 550;
+        height: 50%;
+        width: 40%;
+        /* background-color: crimson; */
+     }
+     div.fixname{
+        display: flex;
+        position: absolute;
+        top: 25%;
+        font-size: 25px;
+        left: 41%;
+        height: 50%;
+        width: 59%;
+        /* background-color: aqua; */
+     }
+     div.fixhead1{
+      display: flex;
+      position: absolute;
+      top: 25%;
+      left: 0%;
+      font-size: calc(1.6vw);
+      font-weight: 550;
+      text-shadow: 3px 3px 3px palegreen;
+      color: darkgreen;
+      height: 50%;
+      width: 35%;
+      /* background-color: crimson; */
+   }
+   div.fixname1{
+      display: flex;
+      position: absolute;
+      top: 20%;
+      font-size: 25px;
+      left: 40%;
+      height: 60%;
+      width: 50%;
+      /* background-color: aqua; */
+   }
+     div.player-name{
+        display: flex;
+        position: absolute;
+        top: 72%;
+        left: 55%;
+        height: 10%;
+        width: 40%;
+        /* background-color: gray; */
+     }
+     div.coach-sign{
+      display: flex;
+      position: absolute;
+      top: 85%;
+      left: 5%;
+      height: 10%;
+      width: 40%;
+      /* background-color: gray; */
+      }
+      div.main-sign{
+         display: flex;
+         position: absolute;
+         top: 85%;
+         left: 55%;
+         height: 10%;
+         width: 40%;
+         /* background-color: gray; */
+         }
+     div.footer{
+        display: flex;
+        position: absolute;
+        top: 130%;
+        left: 0%;
+        height: 30%;
+        width: 100%;
+        background-color: gray;
+     }
+
+
+      /* Media Queries */
+
+
+      @media only screen and (max-width: 450px) and (min-width:340px) {
+         div.inputdata{
+            height: 55%;
+            width: 70%;
+            left: 15%;
+         }
+         span.heading{
+            font-size: calc(8vw);
+         }
+         div.certificate{
+            top: 100%;
+            width: 90%;
+            height: 40%;
+            left: 5%;
+         }
+         button.submit{
+            font-size: calc(4vw);
+         }
+         div.footer{
+            top: 150%;
+         }
+         div.header{
+            height: 15%;
+            width: 90%;
+            left: 5%;
+            font-size: calc(5.5vw);
+         }
+         div.presenter{
+            font-size: calc(2.5vw);
+         }
+         div.applicant-name{
+            font-size: calc(5vw);
+         }
+         div.so{
+            font-size: calc(2.5vw);
+         }
+         div.father-applicant-name{
+            font-size: calc(5vw);
+         }
+         div.report{
+            font-size: calc(3vw);
+         }
+         div.fixhead{
+            font-size: calc(3vw);
+         }
+         div.fixhead1{
+            font-size: calc(3vw);
+            width: 50%;
+         }
+      }
+
+
+      @media only screen and (max-width: 550px) and (min-width:450px) {
+         div.inputdata{
+            height: 65%;
+            width: 70%;
+            left: 15%;
+         }
+         span.heading{
+            font-size: calc(8vw);
+         }
+         div.certificate{
+            top: 110%;
+            width: 90%;
+            height: 50%;
+            left: 5%;
+         }
+         button.submit{
+            font-size: calc(4vw);
+         }
+         div.footer{
+            top: 175%;
+         }
+         div.header{
+            height: 15%;
+            width: 90%;
+            left: 5%;
+            font-size: calc(5.5vw);
+         }
+         div.presenter{
+            font-size: calc(2.5vw);
+         }
+         div.applicant-name{
+            font-size: calc(5vw);
+         }
+         div.so{
+            font-size: calc(2.5vw);
+         }
+         div.father-applicant-name{
+            font-size: calc(5vw);
+         }
+         div.report{
+            font-size: calc(3vw);
+         }
+         div.fixhead{
+            font-size: calc(3vw);
+         }
+         div.fixhead1{
+            font-size: calc(3vw);
+            width: 50%;
+         }
+      }
+
+
+      @media only screen and (max-width: 800px) and (min-width:551px) {
+         div.inputdata{
+            height: 70%;
+            width: 70%;
+            left: 15%;
+         }
+         span.heading{
+            font-size: calc(5vw);
+         }
+         div.certificate{
+            top: 120%;
+            width: 90%;
+            height: 55%;
+            left: 5%;
+         }
+         div.footer{
+            top: 190%;
+         }
+         div.header{
+            font-size: calc(4.5vw);
+         }
+         div.presenter{
+            font-size: calc(2.5vw);
+         }
+         div.applicant-name{
+            font-size: calc(5vw);
+         }
+         div.so{
+            font-size: calc(2.5vw);
+         }
+         div.father-applicant-name{
+            font-size: calc(5vw);
+         }
+         div.report{
+            font-size: calc(3vw);
+         }
+         div.fixhead{
+            font-size: calc(3vw);
+         }
+         div.fixhead1{
+            font-size: calc(3vw);
+            width: 50%;
+         }
+      }
+
+
+      @media only screen and (max-width: 800px)and (min-width:601px){
+         div.inputdata{
+            height: 70%;
+            width: 70%;
+            left: 15%;
+         }
+         span.heading{
+            font-size: calc(5vw);
+         }
+         div.certificate{
+            top: 125%;
+            width: 90%;
+            height: 65%;
+            left: 5%;
+         }
+         div.footer{
+            top: 200%;
+         }
+         div.header{
+            font-size: calc(4.5vw);
+         }
+         div.presenter{
+            font-size: calc(2.5vw);
+         }
+         div.applicant-name{
+            font-size: calc(5vw);
+         }
+         div.so{
+            font-size: calc(2.5vw);
+         }
+         div.father-applicant-name{
+            font-size: calc(5vw);
+         }
+         div.report{
+            font-size: calc(3vw);
+         }
+         div.fixhead{
+            font-size: calc(3vw);
+         }
+         div.fixhead1{
+            font-size: calc(3vw);
+            width: 50%;
+         }
+      }
+
+
+     @media only screen and (max-width: 980px ) and (min-width:801px) {
+      div.inputdata{
+         width: 70%;
+         left: 15%;
+      }
+      span.heading{
+         font-size: calc(5vw);
+      }
+      div.certificate{
+         top: 130%;
+         width: 90%;
+         height: 70%;
+         left: 5%;
+      }
+      div.footer{
+         top: 220%;
+      }
+      div.header{
+         font-size: calc(4.5vw);
+      }
+      div.presenter{
+         font-size: calc(2.5vw);
+      }
+      div.applicant-name{
+         font-size: calc(5vw);
+      }
+      div.so{
+         font-size: calc(2.5vw);
+      }
+      div.father-applicant-name{
+         font-size: calc(5vw);
+      }
+      div.report{
+         font-size: calc(3vw);
+      }
+      div.fixhead{
+         font-size: calc(3vw);
+      }
+      div.fixhead1{
+         font-size: calc(3vw);
+         width: 50%;
+      }
+     }
+
+
+
+
+
+
+
+
+
+
+
+
