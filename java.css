@@ -7,14 +7,15 @@
         background-color: #fefefe; 
         padding: 1em; width: 95vw; 
         max-width: 100%;
-        margin: 0 auto; }
+        margin: 0 auto; 
+      }
 
-     div.inputdata{
+     form.inputdata{
         display: flex;
         position: absolute;
         top: 40%;
         left: 5%;
-        height: 80%;
+        height: 100%;
         border: 1px solid black;
         width: 25%;
         background: salmon;
@@ -59,42 +60,54 @@
         height: 50%;
         box-shadow: 3px 3px 3px black;
      }
+     span.error{
+      display: flex;
+      position: absolute;
+      color: brown;
+      text-shadow: 3px 3px 3px white;
+      top: 90%;
+      font-weight: bold;
+      height: 10%;
+      left: 10%;
+      width: 80%;
+      /* background-color: aqua; */
+     }
      div.name{
         display: flex;
         position: absolute;
         top: 0%;
         left: 0%;
-        height: 25%;
+        height: 20%;
         width: 100%;
         /* background-color: rgb(255, 99, 234); */
      }
      div.father-name{
         display: flex;
         position: absolute;
-        top: 25%;
+        top: 20%;
         left: 0%;
-        height: 25%;
+        height: 20%;
         width: 100%;
         /* background-color: gray; */
      }
      div.sport-name{
         display: flex;
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 0%;
         height: 20%;
         width: 100%;
         /* background-color: rgb(181, 231, 31); */
      }
-     /* div.year{
+     div.year{
         display: flex;
         position: absolute;
         top: 60%;
         left: 0%;
         height: 20%;
         width: 100%;
-        background-color: rgb(109, 185, 77);
-     } */
+        /* background-color: rgb(109, 185, 77); */
+     }
      a{
       text-decoration: none;
       color: inherit;
@@ -102,9 +115,9 @@
      div.submit{
         display: flex;
         position: absolute;
-        top: 75%;
+        top: 80%;
         left: 0%;
-        height: 25%;
+        height: 20%;
         width: 100%;
         /* background-color: rgb(226, 103, 103); */
      }
@@ -140,7 +153,24 @@
         border-radius: 20px;
         box-shadow: 5px 5px 5px goldenrod;
         width: 60%;
-        background-color: rgba(246, 255, 146, 0.653);
+        background-color: rgba(255, 255, 255, 0.653);
+     }
+     div.stamp{
+      display: flex;
+      position: absolute;
+      bottom: 8%;
+      right: 15%;
+      height: 24%;
+      width: 15%;
+      background-color: #111111;
+     }
+     img.stamp{
+      display: flex;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      height: 100%;
+      width: 100%;
      }
      div.header{
         display: flex;
@@ -308,7 +338,7 @@
      div.footer{
         display: flex;
         position: absolute;
-        top: 130%;
+        top: 180%;
         left: 0%;
         height: 30%;
         width: 100%;
