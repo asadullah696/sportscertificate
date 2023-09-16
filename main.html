@@ -46,10 +46,10 @@
                     Year
                 </span>
                 <span class="data">
-                    <input type="year" placeholder="Enter the year of Participitation" id="year-part-input" class="data" required>
+                    <input type="year" type="number" min="1950" max="2023" placeholder="Enter the year of Participitation" id="year-part-input" class="data" required>
                 </span>
         </div>
-        <div class="submit" onclick="submit()" id="submit">
+        <div class="submit" onclick="submit(); myFunction()" id="submit">
             <button  class="submit"><a href="#certificate-of-appericiation">Submit</a></button>
         </div>
     </form>
